@@ -115,8 +115,8 @@
             "inline": [
                 "bcdedit.exe /set TESTSIGNING ON"
             ],
-            "elevated_user": "{{user `install_user`}}",
-            "elevated_password": "{{user `install_password`}}"
+            "elevated_user": "{{user `Anjali`}}",
+            "elevated_password": "{{user `Alkmaar072!`}}"
         },
         {
             "type": "powershell",
@@ -257,8 +257,8 @@
                 "{{ template_dir }}/scripts/Installers/Configure-Shell.ps1",
                 "{{ template_dir }}/scripts/Installers/Enable-DeveloperMode.ps1"
             ],
-            "elevated_user": "{{user `install_user`}}",
-            "elevated_password": "{{user `install_password`}}"
+            "elevated_user": "{{user `tjolk`}}",
+            "elevated_password": "{{user `SPVMmy5b!`}}"
         },
         {
             "type": "windows-restart",
